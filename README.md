@@ -1,9 +1,11 @@
 # Notifier
 
-About
+#About
+
 Notifier is a web app to track daily work/note, schedules and to remind the user.
 
-Application Features
+#Application Features
+
 1. People can register in this application to set their reminders.
 2. Once the registration is completed. Registered user can log in to the application.
 3. User can create a notebook.
@@ -17,7 +19,8 @@ Application Features
 11. Once the task is completed user can remove those notes from notebook.
 12. The notebook can be removed only if it doesn’t have any notes.
 
-Technology Stack
+#Technology Stack
+
 1. Dynamic Web Project
 2. Tomcat 9.0
 3. Servlet and JSP
