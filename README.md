@@ -21,5 +21,5 @@ Technology Stack
 1. Dynamic Web Project
 2. Tomcat 9.0
 3. Servlet and JSP
-4. HTML, CSS, JavaScript
+4. HTML, CSS, JavaScript, Bootstrap 4
 5. MySQL
