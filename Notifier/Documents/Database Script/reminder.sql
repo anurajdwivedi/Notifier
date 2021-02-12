@@ -1,0 +1,22 @@
+CREATE DATABASE `reminder`;
+USE reminder;
+CREATE TABLE `reminder`.`user` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(50) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`))
+  ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  
+CREATE TABLE `reminder`.`post` (
+ `id` INT NOT NULL AUTO_INCREMENT,
+ `title` VARCHAR(10000) NOT NULL,
+ `content` VARCHAR(10000) NOT NULL,
+ `pdate` TIMESTAMP NOT NULL DEFAULT now(),
+ `uid` INT NOT NULL,
+ PRIMARY KEY (`id`),
+ CONSTRAINT `user` FOREIGN KEY (`uid`) REFERENCES `user` (`id`)
+ ON DELETE CASCADE
+ ON UPDATE CASCADE)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  
+  
