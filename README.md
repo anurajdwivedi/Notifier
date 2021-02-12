@@ -18,8 +18,8 @@ Application Features
 12. The notebook can be removed only if it doesn’t have any notes.
 
 Technology Stack
-Dynamic Web Project
-Tomcat 9.0
-Servlet and JSP
-HTML, CSS, JavaScript
-MySQL
+1. Dynamic Web Project
+2. Tomcat 9.0
+3. Servlet and JSP
+4. HTML, CSS, JavaScript
+5. MySQL
